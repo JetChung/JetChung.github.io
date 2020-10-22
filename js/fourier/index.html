@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>fourier</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://jetchung.github.io/favicon.ico">
+
+    <style>
+
+    </style>
+</head>
+
+<div class='parent flex-parent'>
+    <div class='child flex-child'>
+        <div id="container">
+
+            <div style="position: relative;">
+                <canvas id="canvasCircles" width="1000" height="700"
+                    style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+                <canvas id="canvas" width="1000" height="700"
+                    style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+
+            </div>
+            <div id="objects">
+                <div id="obj">
+                    <!--placeholder object-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="mainloop.js"></script>
+
+<script src="fourier.js"></script>
+
+<footer>
+
+    <div class="footer1" style="position: absolute; left: 70px; top: 710px; z-index: 0;">
+        Made with <span style="color: #A31F34;">&#9829;</span> by Jet
+    </div>
+</footer>
+</body>
+
+</html>
