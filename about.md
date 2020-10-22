@@ -22,4 +22,4 @@ Hi! I'm Jet Chung, a senior at Wayland High School. I am interested in all sorts
 
 
 ### Contact
-You can contact me at jetchung1 (at) gmail (dot) com. My math Stack Exchange is [here](https://math.stackexchange.com/users/596778/jet-chung) and my GitHub is [here](https://github.com/JetChung).
+You can contact me at jetchung1@gmail.com. My math Stack Exchange is [here](https://math.stackexchange.com/users/596778/jet-chung) and my GitHub is [here](https://github.com/JetChung).

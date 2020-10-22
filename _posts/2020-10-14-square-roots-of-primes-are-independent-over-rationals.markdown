@@ -4,11 +4,10 @@ title:  "Square roots of primes are rationally independent over rationals"
 date:   2020-10-14 21:30:32 -0400
 categories: real-analysis number-theory
 ---
-This problem was proposed by Vitaly Bergelson in a seminar for alumni of the Ross mathematics program.
 
-**Problem:** Call a set \\(S \subset \mathbb{R}\\) rationally independent if no nontrivial linear combination of its elements with rational coefficients is zero. Prove \\(\\{\sqrt{p}: p \text{ prime}\\}\\) is rationally independent.
+**Problem:** Call a set \\(S \subset \mathbb{R}\\) rationally independent if no nontrivial linear combination of its elements with rational coefficients is zero. Is \\(\\{\sqrt{p}: p \text{ prime}\\}\\) is rationally independent?
 
-**Solution:** Clearing denominators, assume that \\(\sum_{i=1}^{n}{a_i}\sqrt{p_i} = 0\\) for \\(a_i \in \mathbb{Z}\\); we claim that each \\(a_k = 0\\). For each \\(k\\), we construct a large prime \\(P_k\\) such that \\(\left(\frac{p_i}{P_k}\right)\\) for each \\(1 \leq i \leq n\\) such that \\(i \neq k\\), and \\(\left(\frac{p_k}{P_k}\right) = -1\\). To do this, let \\(P_k\\) be such that
+**Solution:** No. Clearing denominators, assume that \\(\sum_{i=1}^{n}{a_i}\sqrt{p_i} = 0\\) for \\(a_i \in \mathbb{Z}\\); we claim that each \\(a_k = 0\\). For each \\(k\\), we construct a large prime \\(P_k\\) such that \\(\left(\frac{p_i}{P_k}\right)\\) for each \\(1 \leq i \leq n\\) such that \\(i \neq k\\), and \\(\left(\frac{p_k}{P_k}\right) = -1\\). To do this, let \\(P_k\\) be such that
 \\[ P_k \equiv 1 \bmod{p_i} \text{ for }1 \leq i \leq n, i \neq k \\]
 \\[ P_k \equiv b \bmod{p_k} \text{ where } \left(\frac{b}{p_k}\right) = -1 \\]
 \\[ P_k \equiv 1 \bmod{4} \\]

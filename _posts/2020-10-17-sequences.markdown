@@ -5,6 +5,8 @@ date:   2020-10-17 12:31:46 -0400
 categories: real-analysis
 ---
 
+Some basic sequences and series problems.
+
 **Problem 1:** Prove that the sequence \\(\left\\{\frac{3n}{2n+5}\right\\}_{n \in \mathbb{N}}\\) is convergent on \\(\mathbb{R}\\), and find its limit.
 
 **Solution:** We claim that the sequence converges to \\(\frac{3}{2}\\). Pick some \\(\varepsilon > 0\\), and let \\(n_0 = \left\lceil \frac{15}{4\varepsilon}\right\rceil\\). Then for any \\(n > n_0\\),
@@ -18,7 +20,7 @@ Thus \\(\left\\{\frac{3n}{2n+5}\right\\}_{n \in \mathbb{N}}\\) converges to \\(\
 
 **Problem 2:** Define \\(a_1 = \sqrt{2}\\), \\(a_{n+1} = \sqrt{2 + a_n}\\) where \\(n \in \mathbb{N}\\). Show that \\(\\{a_n\\}\\) is a convergent sequence and find its limit.
 
-**Solution:** First, we show that the terms are strictly increasing. Note that \\(\sqrt{2 + \sqrt{2}} > \sqrt{2}\\), so \\(a_2 > a_1\\). Now, assume that \\(a_{n+1} > a_n\\) for all \\(n\\) up to \\(n = k\\). We have
+**Solution:** First, we show that the terms are strictly increasing. Note that \\(\sqrt{2 + \sqrt{2}} > \sqrt{2},\\) so \\(a_2 > a_1\\). Now, assume that \\(a_{n+1} > a_n\\) for all \\(n\\) up to \\(n = k\\). We have
 
 \\[a_{k+1} > a_k \implies a_{k+2} = \sqrt{2 + a_{k+1}} > \sqrt{2+a_k} = a_{k+1}\\]
 so the hypothesis holds for \\(n = k+1\\), and thus all positive \\(n\\).

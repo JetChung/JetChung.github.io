@@ -2,9 +2,9 @@
 layout: post
 title:  "Rational dependence of Cantor sets"
 date:   2020-10-15 17:41:15 -0400
-categories: real-analysis
+categories: real-analysis cantor-set
 ---
-More Bergelson problems.
+Can a positive measure Cantor set be rationally independent? Can any Cantor set be rationally independent?
 
 **Problem 1:** Prove that if \\(K \in [0,1]\\) is a Cantor set of positive measure, then \\(K\\) cannot be rationally independent.
 
