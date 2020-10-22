@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 title: About
-permalink: /about/
+permalink: /home/
 ---
 
 Hi! I'm Jet Chung, a senior at Wayland High School. I am interested in all sorts of math, especially number theory and analysis. This blog is mostly for my own organization of thoughts on various math related topics and snippets of the math I’m working on.

@@ -1,0 +1,17 @@
+<!-- # ---
+# layout: post
+# title:  "Laws of Composition"
+# date:   2020-10-17 12:31:46 -0400
+# categories: abstract-algebra
+# ---
+# This is from Artin's Algebra.
+#
+# **Problem 1:** Let \\(S\\) be a set. Prove that the law of composition defined by \\(ab = a\\) for all \\(a\\) and \\(b\\) in \\(S\\) is associative. For which sets does this law have an identity?
+#
+# **Solution:** Since \\((ab)c = ab = a = ac = (ab)c\\), this law of composition is associative. An identity element satisfies \\(ae = ea = a\\), but \\(ea = e\\), so only the set consisting of the identity element has an identity.
+#
+# **Problem 2:** Prove the following:
+# * If an element \\(a\\) has both a left inverse \\(l\\) and a right inverse \\(r\\), i.e. if \\(la = 1\\) and \\(ar = 1\\), then \\(l = r\\), \\(a\\) is invertible, and \\(r\\) is its inverse.
+# * If \\(a\\) is invertible, its inverse is unique.
+# * Inverses multiply in the opposite order: If \\(a\\) and \\(b\\) are invertible, so is the product \\(ab\\), and \\((ab)^{-1} = b^{-1}a^{-1}\\).
+# * An element \\(a\\) may have a left inverse or a right inverse, though it is not invertible. -->
