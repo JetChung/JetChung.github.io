@@ -11,7 +11,7 @@ categories: real-analysis
 
 First, we claim that \\(0 < \mu(A) < 1\\). The measure of \\(A\\) is the measure of the removed intervals of \\(C_{1/5},\\) and as they are disjoint, this can be computed as \\[\frac{1}{5}+\frac{2}{25}+\frac{4}{125} + \cdots = \frac{\frac{1}{5}}{1-\frac{2}{5}} = \frac{1}{5-2} = \frac{1}{3}.\\] Thus, the measure of \\(A\\) is \\(\frac{1}{3}\\).
 
-Any Cantor set is nowhere dense. We claim this means \\(C_{1/5}\\) is not dense in \\([a, b]\\) (this seems tautological but is needed). If \\(C\\) were dense in \\([a, b]\\), then \\(\mathrm{cl}(C) = [a, b]\\) and \\(\mathrm{int}(\mathrm{cl}(C)) = (a, b)\\), contradicting \\(C_{1/5}\\) being nowhere dense in \\([0, 1]\\). Thus, there is some \\( c \in [a,b]\\) such that \\(\exists \varepsilon > 0\\) with \\(B_{\varepsilon}c \cap C_{1/5} = \varnothing\\). Therefore, \\(\mu(C_{1/5} \cap [a, b]) \leq b - a - \varepsilon\\), and since \\[\mu(A \cap [a, b]) + \mu(C_{1/5} \cap [a,b]) = b-a,\\]
+Any Cantor set is nowhere dense. We claim this means \\(C_{1/5}\\) is not dense in \\([a, b]\\) (this seems tautological but is needed). If \\(C\\) were dense in \\([a, b]\\), then \\(\mathrm{cl}(C) \supset [a, b]\\) and \\(\mathrm{int}(\mathrm{cl}(C)) \supset (a, b)\\), contradicting \\(C_{1/5}\\) being nowhere dense in \\([0, 1]\\). Thus, there is some \\( c \in [a,b]\\) such that \\(\exists \varepsilon > 0\\) with \\(B_{\varepsilon}c \cap C_{1/5} = \varnothing\\). Therefore, \\(\mu(C_{1/5} \cap [a, b]) \leq b - a - \varepsilon\\), and since \\[\mu(A \cap [a, b]) + \mu(C_{1/5} \cap [a,b]) = b-a,\\]
 we have \\(\mu(A \cap [a, b]) \geq \varepsilon > 0\\) for each \\([a, b] \subset [0,1]\\) as desired. \\(\square\\)
 
 <!--
