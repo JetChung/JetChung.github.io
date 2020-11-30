@@ -18,7 +18,7 @@ We expect \\(E\\) and \\(E-n\\) to behave independently:
 If we take some normal subset \\(E \subset \mathbb{N}\\), then \\(d(E \cap (E-n) = \frac{1}{4}\\)).
 
 **Proof:** Let \\(E^k = E \cap (k + n\mathbb{N})\\) and \\(E_m^k = E^k \cap [k, k+(m-1)n]\\). Also consider the bijection \\(n^{-1}(E^k - k) \longleftrightarrow F^k\\) (this is essentially removing gaps). Finally, let \\(F^k_m = F^k \cap [1, m]\\). We have
-\\[c(E_m^k) = \\#\\{(i, i+1) : 0 \leq i \leq m-2, k+in, k + (i+1)n \in E\\}\\] = \\[\\#\\{(i, i+1) : 1 \leq i \leq m-1, i, i + 1 \in F\\} = c(F_m^k).\\]
+\\[c(E_m^k) = \\#\\{(i, i+1) : 0 \leq i \leq m-2, k+in, k + (i+1)n \in E\\}\\]  \\[= \\#\\{(i, i+1) : 1 \leq i \leq m-1, i, i + 1 \in F\\} = c(F_m^k).\\]
 Then as \\(F^k\\) is normal, 
 \\[\lim_{m\to \infty}\frac{c(E_m^k)}{m-1} = \lim_{m\to \infty}\frac{c(F_m^k)}{m-1}= \frac{1}{4}.\\]
 We have
@@ -27,8 +27,9 @@ where the \\(n(m-1) + r\\) is from division with remainder by \\(m\\) (in partic
 
 I have some exercises for myself:
 
-**Exercise:** Prove that \\(F_k\\) is normal.
+**Exercise 1:** Fix the hand waving on the last line.
 
-**Exercise:** Generalize this to \\(k\\) distinct shifts.
+**Exercise 2:** Prove that \\(F_k\\) is normal.
 
-**Exercise
+**Exercise 3:** Generalize this to \\(k\\) distinct shifts.
+
