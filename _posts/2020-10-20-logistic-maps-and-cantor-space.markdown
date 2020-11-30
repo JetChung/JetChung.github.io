@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Points that are stable under logistic mapping form a Cantor space"
-date:   2020-10-19 19:18:17 -0400
+date:   2021-10-19 19:18:17 -0400
 categories: real-analysis cantor-set
 ---
 
