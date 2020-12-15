@@ -11,14 +11,14 @@ Some general heuristics that a problem might be solved using the Baire Category 
 **Problem 1:** Prove that \\(\mathbb{Q}\\) is not a countable intersection of open sets.
 
 **Solution:**
-Say \\(\mathbb{Q} = \bigcap_{i=1}^{\infty}\\) for \\(B_i\\) open. Then \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\} = \varnothing \\) where \\(\{q_i\}\_{i=1}^{\infty} = \mathbb{Q}\\). Iteratively take \\([a_1, b_1] \subseteq B_1 \setminus \{q_i\} \\) and \\([a_i, b_i] \subseteq [a_{i-1}, b_{i-1}] \cap (B_i \setminus \{q_i\})\\) for all \\(i \in \mathbb{N}\\). We thus find a chain of nested compact intervals, so we can pick some point \\(p \in \bigcap_{i=1}^{\infty}[a_i, b_i] \subseteq \bigcap_{i=1}^{\infty}B_i \setminus \{q_i\} \\), contradicting emptiness of \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\}\\). In particular, \\(\mathbb{Q}\\) is not \\(G_\delta\\) and \\(\mathbb{R} \setminus \mathbb{Q}\\) is not \\(F_\sigma\\).
+Say \\(\mathbb{Q} = \bigcap_{i=1}^{\infty}\\) for \\(B_i\\) open. Then \\(\bigcap_{i=1}^{\infty} B_i \setminus \\{q_i\\} = \varnothing \\) where \\(\\{q_i\\}\_{i=1}^{\infty} = \mathbb{Q}\\). Iteratively take \\([a_1, b_1] \subseteq B_1 \setminus \\{q_1\\} \\) and \\([a_i, b_i] \subseteq [a_{i-1}, b_{i-1}] \cap (B_i \setminus \\{q_i\\})\\) for all \\(i \in \mathbb{N}\\). We thus find a chain of nested compact intervals, so we can pick some point \\(p \in \bigcap_{i=1}^{\infty}[a_i, b_i] \subseteq \bigcap_{i=1}^{\infty}B_i \setminus \\{q_i\\} \\), contradicting emptiness of \\(\bigcap_{i=1}^{\infty} B_i \setminus \\{q_i\\}\\). In particular, \\(\mathbb{Q}\\) is not \\(G_\delta\\) and \\(\mathbb{R} \setminus \mathbb{Q}\\) is not \\(F_\sigma\\).
 
 
 **Problem 2:**
-Let \\( \{ f_n\} \\) be a sequence of continuous functions on \\(\mathbb{R}\\) so that for every \\(x\\), \\(\lim_{n \to \infty}f_n(x)\\) exists and is finite. Prove that there is an interval \\((a, b)\\) of positive length so that the set \\(\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\}\\) is bounded above. This is a special case of Banach-Steinhaus.
+Let \\( \{ f_n\} \\) be a sequence of continuous functions on \\(\mathbb{R}\\) so that for every \\(x\\), \\(\lim_{n \to \infty}f_n(x)\\) exists and is finite. Prove that there is an interval \\((a, b)\\) of positive length so that the set \\(\\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\\}\\) is bounded above. This is a special case of Banach-Steinhaus.
 
 **Solution:**
-Let \\(S_N = \{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \}\\). Since \\(0 \leq |\lim_{n \to \infty}f_n(x)| = |f(x)| \leq N\\) for some \\(N \in \mathbb{N}\\) and all \\(x \in \mathbb{R}\\), we have \\(\mathbb{R} = \bigcup_{N \in \mathbb{N}}S_N\\). Thus, by the Baire Category Theorem, some \\(S_N\\) contains an interval \\((a, b)\\), so \\(\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\}\\) is bounded above by \\(N\\).
+Let \\(S_N = \\{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \\}\\). Since \\(0 \leq |\lim_{n \to \infty}f_n(x)| = |f(x)| \leq N\\) for some \\(N \in \mathbb{N}\\) and all \\(x \in \mathbb{R}\\), we have \\(\mathbb{R} = \bigcup_{N \in \mathbb{N}}S_N\\). Thus, by the Baire Category Theorem, some \\(S_N\\) contains an interval \\((a, b)\\), so \\(\\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\\}\\) is bounded above by \\(N\\).
 
 **Problem 3:**
 Does there exist a sequence of continuous positive functions \\(f_n\\) on \\(\mathbb{R}\\) so that the set \\(\{f_n(x)\}\\) is unbounded if and only if \\(x\\) is rational? What if rational is replaced with irrational?
