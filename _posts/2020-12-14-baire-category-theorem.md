@@ -36,7 +36,7 @@ Prove that if \\( \{ f_n\} \\) is a sequence of continuous functions from \\( \m
 Prove that if \\(f\\) is a continuous function from positive reals to positive reals so that \\(f(x), f(2x), f(3x), \ldots \\) tends to \\(0\\) for all \\(x\\), then \\(f(t) \to 0\\) as \\(t \to \infty\\).
 
 **Solution:**
-Fix \\(\varepsilon > 0\\) and let \\(T_N = \{x \in \mathbb{R}^{+} : f(nx) \leq \frac{\varepsilon}{2}\}\\). Let \\(S_N = \bigcap_{n \geq N}T_n\\). Since each \\(T_n\\) is closed, each \\(S_N\\) is closed. Also, as for all \\(x \in \mathbb{R}^{+}\\), \\(f(nx) \to 0\\), we have \\(\mathbb{R}^{+} = \bigcup_{N \in \mathbb{N}}S_N\\), so in particular, some \\(S_N\\) contains an interval \\((a, b)\\) by the BCT. Note if \\(t \in (a, b)\\), then for all \\(n\geq N\\), \\(f(nt) \leq \frac{\varepsilon}{2} \iff\\) for all \\(n \geq N, t \in (na, nb), f(t) \leq \frac{\varepsilon}{2}\\). Now, take an \\(M \geq N\\) such that \\(M \geq \frac{a}{b-a}\\). We have
+Fix \\(\varepsilon > 0\\) and let \\(T_N = \\{x \in \mathbb{R}^{+} : f(nx) \leq \frac{\varepsilon}{2}\\}\\). Let \\(S_N = \bigcap_{n \geq N}T_n\\). Since each \\(T_n\\) is closed, each \\(S_N\\) is closed. Also, as for all \\(x \in \mathbb{R}^{+}\\), \\(f(nx) \to 0\\), we have \\(\mathbb{R}^{+} = \bigcup_{N \in \mathbb{N}}S_N\\), so in particular, some \\(S_N\\) contains an interval \\((a, b)\\) by the BCT. Note if \\(t \in (a, b)\\), then for all \\(n\geq N\\), \\(f(nt) \leq \frac{\varepsilon}{2} \iff\\) for all \\(n \geq N, t \in (na, nb), f(t) \leq \frac{\varepsilon}{2}\\). Now, take an \\(M \geq N\\) such that \\(M \geq \frac{a}{b-a}\\). We have
 \\[(Ma, \infty) = \bigcup_{n \geq M} (na, nb),\\] so if \\(t > Ma\\), \\(f(t) \leq \frac{\varepsilon}{2} < \varepsilon.\\)
 
 
