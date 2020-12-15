@@ -1,30 +1,30 @@
 ---
 layout: post
 title:  "Some problems using the Baire Category Theorem"
-date:   2021-11-29 21:38:52 -0400
+date:   2021-12-14 22:18:11 -0400
 categories: real-analysis
 ---
 
 
-A general heuristic that a problem might be solved using the Baire Category Theorem: the problem comes from a section of Rudin discussing the Baire Category Theorem, or the problem comes from a blog post from someone discussing uses of the Baire Category Theorem.
+Some general heuristics that a problem might be solved using the Baire Category Theorem: the problem comes from a section of Rudin discussing the Baire Category Theorem, or the problem comes from a blog post from someone discussing uses of the Baire Category Theorem.
 
 **Problem 1:** Prove that \\(\mathbb{Q}\\) is not a countable intersection of open sets.
 
 **Solution:**
-Say \\(\mathbb{Q} = \bigcap_{i=1}^{\infty}\\) for \\(B_i\\) open. Then \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\} = \varnothing \\) where \\(\{q_i\}_{i=1}^{\infty} = \mathbb{Q}\\). Iteratively take \\([a_1, b_1] \subseteq B_1 \setminus \{q_i\} \\) and \\([a_i, b_i] \subseteq [a_{i-1}, b_{i-1}] \cap (B_i \setminus \{q_i\})\\) for all \\(i \in \mathbb{N}\\). We thus find a chain of nested compact intervals, so we can pick some point \\(p \in \bigcap_{i=1}^{\infty}[a_i, b_i] \subseteq \bigcap_{i=1}^{\infty}B_i \setminus \{q_i\} \\), contradicting emptiness of \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\}\\). In particular, \\(\mathbb{Q}\\) is not \\(G_\delta\\) and \\(\mathbb{R} \setminus \mathbb{Q}\\) is not \\(F_\sigma\\).
+Say \\(\mathbb{Q} = \bigcap_{i=1}^{\infty}\\) for \\(B_i\\) open. Then \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\} = \varnothing \\) where \\(\{q_i\}\_{i=1}^{\infty} = \mathbb{Q}\\). Iteratively take \\([a_1, b_1] \subseteq B_1 \setminus \{q_i\} \\) and \\([a_i, b_i] \subseteq [a_{i-1}, b_{i-1}] \cap (B_i \setminus \{q_i\})\\) for all \\(i \in \mathbb{N}\\). We thus find a chain of nested compact intervals, so we can pick some point \\(p \in \bigcap_{i=1}^{\infty}[a_i, b_i] \subseteq \bigcap_{i=1}^{\infty}B_i \setminus \{q_i\} \\), contradicting emptiness of \\(\bigcap_{i=1}^{\infty} B_i \setminus \{q_i\}\\). In particular, \\(\mathbb{Q}\\) is not \\(G_\delta\\) and \\(\mathbb{R} \setminus \mathbb{Q}\\) is not \\(F_\sigma\\).
 
 
 **Problem 2:**
 Let \\( \{ f_n\} \\) be a sequence of continuous functions on \\(\mathbb{R}\\) so that for every \\(x\\), \\(\lim_{n \to \infty}f_n(x)\\) exists and is finite. Prove that there is an interval \\((a, b)\\) of positive length so that the set \\(\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\}\\) is bounded above. This is a special case of Banach-Steinhaus.
 
 **Solution:**
-Let \\(S_N = \{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \}\\). Since \\(0 \leq |\lim_{n \to \infty}f_n(x)| = |f_n(x)| \leq N\\) for some \\(N \in \mathbb{N}\\) and all \\(x \in \mathbb{R}\\), we have \\(\mathbb{R} = \bigcup_{N \in \mathbb{N}}S_N\\). Thus, by the Baire Category Theorem, some \\(S_N\\) contains an interval \\((a, b)\\), so \\(\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\}\\) is bounded above by \\(N\\).
+Let \\(S_N = \{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \}\\). Since \\(0 \leq |\lim_{n \to \infty}f_n(x)| = |f(x)| \leq N\\) for some \\(N \in \mathbb{N}\\) and all \\(x \in \mathbb{R}\\), we have \\(\mathbb{R} = \bigcup_{N \in \mathbb{N}}S_N\\). Thus, by the Baire Category Theorem, some \\(S_N\\) contains an interval \\((a, b)\\), so \\(\{|f_n(x)| : n \in \mathbb{N}, x \in (a,b)\}\\) is bounded above by \\(N\\).
 
 **Problem 3:**
 Does there exist a sequence of continuous positive functions \\(f_n\\) on \\(\mathbb{R}\\) so that the set \\(\{f_n(x)\}\\) is unbounded if and only if \\(x\\) is rational? What if rational is replaced with irrational?
 
 **Solution:**
-Let \\(S_N = \{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \}\\). Then each \\(S_N\\) is closed, so we cannot have \\(\mathbb{R} \setminus \mathbb{Q} = \bigcup_{N \in \mathbb{N}}S_N\\) as \\(\mathbb{R} \setminus \mathbb{Q} \\) is not \\(F_{\sigma}\\).
+Let \\(S_N = \\\{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \\\}\\). Then each \\(S_N\\) is closed, so we cannot have \\(\mathbb{R} \setminus \mathbb{Q} = \bigcup_{N \in \mathbb{N}}S_N\\) as \\(\mathbb{R} \setminus \mathbb{Q} \\) is not \\(F_{\sigma}\\).
 
 Note that \\(\mathbb{Q}\\) is \\(F_{\sigma}\\), so the same argument doesn't hold if rational is replaced with irrational. We construct a sequence \\(\{f_n\}\\): (coming)
 
