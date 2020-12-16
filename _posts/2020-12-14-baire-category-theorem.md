@@ -26,7 +26,7 @@ Does there exist a sequence of continuous positive functions \\(f_n\\) on \\(\ma
 **Solution:**
 Let \\(S_N = \\\{x \in \mathbb{R} : \sup_{n \in \mathbb{N}}|f_n(x)| \leq N \\\}\\). Then each \\(S_N\\) is closed, so we cannot have \\(\mathbb{R} \setminus \mathbb{Q} = \bigcup_{N \in \mathbb{N}}S_N\\) as \\(\mathbb{R} \setminus \mathbb{Q} \\) is not \\(F_{\sigma}\\).
 
-Note that \\(\mathbb{Q}\\) is \\(F_{\sigma}\\), so the same argument doesn't hold if rational is replaced with irrational. We construct a sequence \\(\{f_n\}\\): (coming)
+Note that \\(\mathbb{Q}\\) is \\(F_{\sigma}\\), so the same argument doesn't hold if rational is replaced with irrational. We construct a sequence \\(\{f_n\}\\): enumerate the rationals and for \\(f_n\\), let \\(q_i = i\\) with \\(1 \leq i \leq n\\). Then connect the rational points with lines to form essentially a piecewise function. I'll make this more rigorous soon but this construction works.
 
 <!-- **Problem 4:**
 Prove that if \\( \{ f_n\} \\) is a sequence of continuous functions from \\( \mathbb{R}\\) to \\( \mathbb{R} \\) so that for each \\(x\\), \\( f(x) = \lim_{n \to \infty}f_n(x)\\) exists and is finite, then for each \\(\varepsilon > 0 \\) there is a nonempty open set \\(U \\) and a large \\(N\\) so that \\( |f(x) - f_n(x)| < \varepsilon\\) for all \\(n \geq N\\), \\(x \in U \\). -->
