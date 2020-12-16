@@ -1,0 +1,80 @@
+
+
+html *
+{
+   font-family: Piazzolla !important;
+}
+
+#background-container{
+  padding: 0;
+  position: relative;
+
+}
+
+#name {
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  line-height:2;
+  color: aliceblue;
+}
+
+#sub {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  line-height:2;
+  color: aliceblue;
+
+}
+#background-image{
+  width: 100%
+}
+
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+body{
+}
+
+#nav-items{
+display: none;
+}
+
+.content{
+  height: 760px;
+  margin: 0px;
+  padding:60px;
+}
+
+
+.navbar{
+  padding-left: 10px;
+  padding-right: 10px
+
+}
+
+
+.container-fluid{
+  padding: 0px;
+}
+
+#content{
+  padding: 60px;
+  border: 30px solid #4287f5;
+}
+
+
+#profile{
+  width:100%;
+}
+
+#logo{
+  width:100%;
+}
