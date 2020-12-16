@@ -1,5 +1,3 @@
-
-
 html *
 {
    font-family: Piazzolla !important;
@@ -33,14 +31,10 @@ html *
   width: 100%
 }
 
-
 .fadeIn {
     -webkit-animation: animat_show 0.8s;
     animation: animat_show 0.8s;
     visibility: visible !important;
-}
-
-body{
 }
 
 #nav-items{
@@ -53,13 +47,11 @@ display: none;
   padding:60px;
 }
 
-
 .navbar{
   padding-left: 10px;
   padding-right: 10px
 
 }
-
 
 .container-fluid{
   padding: 0px;
@@ -67,7 +59,7 @@ display: none;
 
 #content{
   padding: 60px;
-  border: 30px solid #4287f5;
+  border: 30px solid #b3d2ff;
 }
 
 
