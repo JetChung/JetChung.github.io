@@ -14,9 +14,11 @@ Note the difference between the following:
 ![Bad](https://lh3.googleusercontent.com/-QxnLhl87hZo/X-AgBrDIGfI/AAAAAAAAHxY/FHq-PHyjrUETkaxDPVu0BVx3A529B7_sACK8BGAsYHg/s0/2020-12-20.png)
 
 **Do this:**
+
 ![Do this](https://lh3.googleusercontent.com/-UJlEJoEqabw/X-Af4vjI5JI/AAAAAAAAHxU/LCtH0p5_x_oJmiHMlgArZuj22uCmDABTACK8BGAsYHg/s0/2020-12-20.png)
 
 **Don't do this:**
+
 ![Don't do this](https://lh3.googleusercontent.com/-ujyh8DBkdLk/X-Af1sWGXQI/AAAAAAAAHxQ/QzL5sr07Jy8VyF5ekGlTwHOhS9NFiHPWACK8BGAsYHg/s0/2020-12-20.png)
 
 
