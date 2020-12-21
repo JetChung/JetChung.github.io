@@ -14,7 +14,7 @@ Note the difference between the following:
 ![Bad](https://lh3.googleusercontent.com/-QxnLhl87hZo/X-AgBrDIGfI/AAAAAAAAHxY/FHq-PHyjrUETkaxDPVu0BVx3A529B7_sACK8BGAsYHg/s0/2020-12-20.png)
 
 **Do this:**
-```
+```TeX
 \end{anum}
 \end{prob}
 
@@ -23,7 +23,7 @@ Note the difference between the following:
 ```
 
 **Don't do this:**
-```
+```TeX
 \end{anum}
 \end{prob}
 
