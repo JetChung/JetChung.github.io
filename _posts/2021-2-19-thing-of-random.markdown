@@ -5,7 +5,7 @@ date:   2021-2-19 23:41:11 -0400
 categories: code random
 ---
 
-Ooops forgot to practice today
+Ooops forgot to practice today because I was trying to figure out how this meme works
 ```python
 import math
 
