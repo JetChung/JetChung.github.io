@@ -9,10 +9,7 @@ Hi! I'm Jet Chung, a rising first-year math(s) student at the University of Oxfo
 ### Education
 * University of Oxford (Hertford College) 
 * 2021 – 2024 Bachelor of Arts (BA) in Mathematics
-<div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
+
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
@@ -20,33 +17,7 @@ Hi! I'm Jet Chung, a rising first-year math(s) student at the University of Oxfo
               <p class="institution">Stanford</p>
             </div>
           </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MSc MTP, 2019</p>
-              <p class="institution">Oxford</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MASt in Mathematics, 2018</p>
-              <p class="institution">Cambridge</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Physics and Mathematics, 2017</p>
-              <p class="institution">MIT</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
+         
 ### Course Notes
 * Complex Analysis
 * [Real Mathematical Analysis](https://www.overleaf.com/read/ywmbzrrrrwwj)
