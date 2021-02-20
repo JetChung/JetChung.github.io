@@ -16,7 +16,6 @@ def convolute(words):
     else:
         words_1 = words[:int(math.floor(l/2))]
         words_2 = words[int(math.floor(l/2)):l]
-
         return convolute(words_2) + " of " + convolute(words_1) + " dude"
 
 def n_convolute(word, n):
@@ -28,11 +27,13 @@ def n_convolute(word, n):
 ```python
 word = "David Ten ARML Winner"
 print(n_convolute(word, 1))
+
 >>> Winner of ARML dude of Ten of David dude dude
 ```
 
 ```python
 word = "David Ten ARML Winner"
 print(n_convolute(word, 2))
+
 >>> dude of dude dude of David dude of of of Ten dude dude of of of dude dude of ARML dude of of of Winner dude dude dude
 ```
