@@ -5,13 +5,12 @@ date:   2021-2-19 23:41:11 -0400
 categories: code random
 ---
 
+Ooops forgot to practice today
 ```python
 import math
 
 def convolute(words):
     l = len(words)
-    if (l == 1):
-            return words[0]
     if (l == 2):
         return (words[1] + " of " + words[0] + " dude")
     else:
