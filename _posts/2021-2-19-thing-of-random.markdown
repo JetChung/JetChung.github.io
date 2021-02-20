@@ -11,6 +11,8 @@ import math
 
 def convolute(words):
     l = len(words)
+    if (l == 1):
+        return words[0]
     if (l == 2):
         return (words[1] + " of " + words[0] + " dude")
     else:
