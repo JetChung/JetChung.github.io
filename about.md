@@ -4,10 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Jet Chung, a senior at Wayland High School. I will be studying mathematics at the University of Oxford, starting in fall 2021. I am interested in all sorts of math, especially number theory and analysis. This blog is mostly for my own organization of thoughts on various math related topics and snippets of the math I’m working on.
+Hi! I'm Jet Chung, a rising first-year math(s) student at the University of Oxford. I am interested in all sorts of math, especially number theory and analysis. When I have time, my goal is to write explanations of various things and put them on this blog. Sadly, that will have to wait :)
+
+### Education
+* University of Oxford (Hertford College) 2021 – 2024
+Bachelor of Arts (BA) in Mathematics
 
 ### Course Notes
-* [Complex Analysis](https://www.overleaf.com/read/xgsfpyfjpgpn)
+* Complex Analysis
 * [Real Mathematical Analysis](https://www.overleaf.com/read/ywmbzrrrrwwj)
 * [Analytic Number Theory](https://www.overleaf.com/read/ncbpgdtkxcmg)
 
