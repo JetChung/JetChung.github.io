@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Jet Chung, a rising first-year math(s) student at the University of Oxford. I am interested in all sorts of math, especially number theory and analysis. When I have time, my goal is to write explanations of various things and put them on this blog. Sadly, that will have to wait :)
+Hi! I'm Jet Chung, a rising first-year math(s) student at the University of Oxford. I am interested in all sorts of math, especially number theory and analysis. When I have time, my goal is to write explanations of various things and put them on this blog. Sadly, that will have to wait :) 
+
+A [CV](https://jetchung.github.io/cv.pdf) is available.
 
 ### Education
 * University of Oxford (Hertford College) - Bachelor of Arts (BA) in Mathematics
